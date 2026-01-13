@@ -68,22 +68,6 @@ Pixel (u,v) → get_rays() → sample_points() → NeRF MLP → process_raw() �
 
 ---
 
-## 📁 Project Structure
-
-```
-NeRF/
-├── nerf_forward_pass.ipynb    # Main implementation
-├── DEEP_THEORY_GUIDE.md       # Theory documentation
-├── SIMPLIFIED_TASK_BREAKDOWN.md
-├── PROJECT_ROADMAP.md
-├── CODE_EXPLANATION.md
-├── LEARNING_GUIDE.md
-├── 2003.08934v2.pdf           # Original paper
-└── requirements.txt
-```
-
----
-
 ## Key Functions
 
 ### `get_rays(H, W, K, c2w)`
